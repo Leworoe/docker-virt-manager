@@ -1,4 +1,4 @@
-FROM ghcr.io/leworoe/broadway-baseimage:main
+FROM ghcr.io/leworoe/broadway-baseimage:latest
 
 ENV FAVICON_URL="/images/virt-manager.png"
 ENV APP_TITLE="Virtual Machine Manager"

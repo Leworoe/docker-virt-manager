@@ -1,6 +1,6 @@
 services:
   virt-manager:
-    image: ghcr.io/leworoe/docker-virt-manager:main
+    image: ghcr.io/leworoe/docker-virt-manager:latest
     restart: always
     ports:
       - 8185:80

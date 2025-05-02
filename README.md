@@ -25,7 +25,7 @@ If docker and libvirt are on the same host
 ```yaml
 services:
   virt-manager:
-    image: ghcr.io/leworoe/docker-virt-manager:main
+    image: ghcr.io/leworoe/docker-virt-manager:latest
     restart: always
     ports:
       - 8185:80
@@ -56,7 +56,7 @@ If docker and libvirt are on different hosts
 ```yaml
 services:
   virt-manager:
-    image: ghcr.io/leworoe/docker-virt-manager:main
+    image: ghcr.io/leworoe/docker-virt-manager:latest
     restart: always
     ports:
       - 8185:80
